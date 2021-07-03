@@ -1,8 +1,8 @@
 from django.contrib import admin
 
-from autos.models import Make, Auto
+from cats.models import Breed, Cat
 
 # Register your models here.
 
-admin.site.register(Make)
-admin.site.register(Auto)
+admin.site.register(Breed)
+admin.site.register(Cat)
